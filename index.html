@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Évolution à Travers les Âges</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            padding: 30px 0;
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            color: white;
+            border-radius: 10px;
+            margin-bottom: 40px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .section {
+            background-color: white;
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+        }
+        
+        h2 {
+            color: #2575fc;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+        }
+        
+        .image-group {
+            flex: 1;
+            min-width: 300px;
+            max-width: 450px;
+        }
+        
+        .image-group h3 {
+            text-align: center;
+            margin-bottom: 15px;
+            color: #6a11cb;
+        }
+        
+        .image-container {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            background-color: #f9f9f9;
+            height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .image-container:hover {
+            transform: translateY(-5px);
+        }
+        
+        .image-placeholder {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #777;
+            font-size: 1.1rem;
+        }
+        
+        .image-placeholder i {
+            font-size: 3rem;
+            margin-bottom: 15px;
+            color: #6a11cb;
+        }
+        
+        .caption {
+            text-align: center;
+            margin-top: 10px;
+            font-style: italic;
+            color: #666;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+        }
+        
+        th {
+            background-color: #6a11cb;
+            color: white;
+            text-align: left;
+            padding: 15px;
+            font-weight: 600;
+        }
+        
+        td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        
+        tr:hover {
+            background-color: #f0f5ff;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 25px;
+            margin-top: 40px;
+            color: #666;
+            border-top: 1px solid #e0e0e0;
+        }
+        
+        .instructions {
+            background-color: #f0f5ff;
+            border-left: 4px solid #2575fc;
+            padding: 15px;
+            margin-top: 30px;
+            border-radius: 0 5px 5px 0;
+        }
+        
+        .instructions h3 {
+            color: #2575fc;
+            margin-bottom: 10px;
+        }
+        
+        @media (max-width: 768px) {
+            .gallery {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .image-group {
+                width: 100%;
+            }
+            
+            h1 {
+                font-size: 2.2rem;
+            }
+            
+            table {
+                display: block;
+                overflow-x: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mon Évolution à Travers les Âges</h1>
+        <p class="subtitle">Bonjour à tous, je m'appelle ANAS MPYANA KAFUMBI, je vous invite à participer dans ce voyage photographique de mon enfance à aujourd'hui, accompagné d'un tableau informatif sur mes centres d'intérêts</p>
+    </header>
+    
+    <main>
+        <section class="section">
+            <h2>Photos de Mon Enfance et d'Aujourd'hui</h2>
+            <p>Découvrez mon évolution à travers ces photos : deux prises lorsque j'avais environ 3 ans, et trois autres qui me représentent aujourd'hui.</p>
+            
+            <div class="gallery">
+                <div class="image-group">
+                    <h3>À 3 ans</h3>
+                    <div class="image-container">
+                        <div class="image-placeholder">
+                            <div>👶</div>
+                            <p>Photo à 3 ans</p>
+                            <img src="c:\Users\Albaty\Documents\3.jpg" alt="Description" style="width:100%; height:100%; object-fit:cover;">
+                        </div>
+                    </div>
+                    <p class="caption">Premiers pas à la plage - été 2006</p>
+                    
+                    <div class="image-container" style="margin-top: 25px;">
+                        <div class="image-placeholder">
+                            <div>🎂</div>
+                            <p>Photo à 3 ans</p>
+                            <img src="c:\Users\Albaty\Documents\31.jpg" alt="Description" style="width:100%; height:100%; object-fit:cover;">
+                        </div>
+                    </div>
+                    <p class="caption">Mon anniversaire avec mon premier gâteau</p>
+                </div>
+                
+                <div class="image-group">
+                    <h3>Aujourd'hui</h3>
+                    <div class="image-container">
+                        <div class="image-placeholder">
+                            <div>🎓</div>
+                            <p>Photo actuelle</p>
+                            <img src="c:\Users\Albaty\Documents\41.jpg" alt="Description" style="width:100%; height:100%; object-fit:cover;">
+                        </div>
+                    </div>
+                    <p class="caption">Etudiqant à l université de Lubumbashi</p>
+                    
+                    <div class="image-container" style="margin-top: 25px;">
+                        <div class="image-placeholder">
+                            <div>✈️</div>
+                            <p>Photo actuelle</p>
+                            <img src="c:\Users\Albaty\Documents\42.jpg" alt="Description" style="width:100%; height:100%; object-fit:cover;">
+                        </div>
+                    </div>
+                    <p class="caption">Hafidh, Encadreur et Guide en islam</p>
+                    
+                    <div class="image-container" style="margin-top: 25px;">
+                        <div class="image-placeholder">
+                            <div>🏞️</div>
+                            <p>Photo actuelle</p>
+                            <img src="c:\Users\Albaty\Documents\4.jpg" alt="Description" style="width:100%; height:100%; object-fit:cover;">
+                        </div>
+                    </div>
+                    <p class="caption">Match d'ouverture de compétition: Stade de Mazembe</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section">
+            <h2>Tableau de Mes Centres d'Intérêts</h2>
+            <p>Ce tableau présente différentes catégories de mes loisirs et activités, classées par type, niveau et années de pratique.</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Activité / Loisir</th>
+                        <th>Type</th>
+                        <th>Niveau</th>
+                        <th>Années de pratique</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Footbal</td>
+                        <td>Sportif</td>
+                        <td>Vétéran et légende</td>
+                        <td>de 2025 jusqu'aujourd'hui</td>
+                    </tr>
+                    <tr>
+                        <td>Lecture du coran</td>
+                        <td>Intellectuel</td>
+                        <td>Avancé</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>Natation</td>
+                        <td>Sportif</td>
+                        <td>Intermédiaire</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>Cuisine</td>
+                        <td>Créatif</td>
+                        <td>Avancé</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>Voyages</td>
+                        <td>Découverte</td>
+                        <td>Passionné</td>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <td>Programmation</td>
+                        <td>Technique</td>
+                        <td>Avancé</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>Musique (guitare)</td>
+                        <td>Artistique</td>
+                        <td>Intermédiaire</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>Randonnée</td>
+                        <td>Sportif</td>
+                        <td>Intermédiaire</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>Jeux vidéo</td>
+                        <td>Loisir</td>
+                        <td>Avancé</td>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <td>Écriture (Poesie)</td>
+                        <td>Créatif</td>
+                        <td>Moyen</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>Jardinage</td>
+                        <td>Nature</td>
+                        <td>Débutant</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>Dessin</td>
+                        <td>Artistique</td>
+                        <td>Débutant</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Méditation</td>
+                        <td>Bien-être</td>
+                        <td>Intermédiaire</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>Cinéma</td>
+                        <td>Culturel</td>
+                        <td>Passionné</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>Bénévolat</td>
+                        <td>Social</td>
+                        <td>Engagé</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>Langues étrangères</td>
+                        <td>Intellectuel</td>
+                        <td>Avancé</td>
+                        <td>10</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <p style="margin-top: 15px; font-style: italic; color: #666;">Note: Le tableau comporte 4 colonnes et 16 lignes de données (en comptant l'en-tête).</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Dernière mise à jour : Janvier 2026</p>
+        <p>Ce site présente mon évolution personnelle à travers des photos et un tableau de centres d'intérêts.</p>
+        <p>Contactez moi au au numéro suivant : <strong>+243 996 788 734</strong></p>
+    </footer>
+</body>
+</html>
